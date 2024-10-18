@@ -13,3 +13,8 @@
 <p>
   Now if that business were to use a hosting solution such as <b> Azure </b>, then they have the abiility to dynamically scale their resources without having to worry about those slow speeds. This is because on traditional physical servers, you would need to buy more physical hardware. Mind you, with cloud computing, companies still have these physical computers in some location. The difference is that there are hundreds of them that allow you to use as much as you need by renting it out, rather than buying additional hardware for your server. 
 </p>
+
+<hr>
+
+## Components 
+- <h3><a href="/SIEM/intial.md"> How to Start </a> </h3>
