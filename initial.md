@@ -1,1 +1,1 @@
-<img src="/picturesv2/freetrial.JPEG" width="800px" alt="click green button">
+<img src="/picturesv2/freetrial.JPG" width="800px" alt="click green button">
