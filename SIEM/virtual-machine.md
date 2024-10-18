@@ -1,1 +1,4 @@
 <img src="/picturesv2/step1.jpg" width="500px" alt="click on create and second option">
+<p>
+  As we have seen those services at the top and clicked on virtual machine, we are going to choose <b> Create </b> and then choose <b> Azure virtual machine with preset configuration. </b>
+</p>
