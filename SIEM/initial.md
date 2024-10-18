@@ -6,3 +6,6 @@
 <hr>
 
 <img src="/picturesv2/home.JPG" alt="landing page">
+<p>
+  Once you log in, you will come across the landing homepage. At the top, there are a couple of Azure services available to use, and in this case, we are going to choose <b> Virtual machines </b>
+</p>
