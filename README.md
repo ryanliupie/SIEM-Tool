@@ -17,4 +17,4 @@
 <hr>
 
 ## Components 
-- <h3><a href="/SIEM/intial.md"> How to Start </a> </h3>
+- <h3><a href="/SIEM/initial.md"> How to Start </a> </h3>
