@@ -5,4 +5,4 @@
 
 <hr> 
 
-<img src="/picturesv2/step2.JPG" width="800px" alt="picking size of VM">
+<img src="/picturesv2/step2.JPG" width="600px" alt="picking size of VM">
