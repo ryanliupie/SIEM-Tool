@@ -9,3 +9,10 @@
 <p> 
 For our use case, we are going to deploying the VM in a production environment and the default workload. We are not going to be needing large memory workloads. 
 </p>
+
+<hr>
+
+<img src="/picturesv2/step3.JPG" width="800px" alt="selections">
+<p>
+  Create a new <b> resource group </b> and call it whatever you want. This 
+</p>
