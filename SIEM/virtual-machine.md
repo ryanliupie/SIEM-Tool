@@ -2,3 +2,7 @@
 <p>
   As we have seen those services at the top and clicked on Virtual machines, we are going to choose <b> Create </b> and then choose <b> Azure virtual machine with preset configuration. </b>
 </p>
+
+<hr> 
+
+<img src="/picturesv2/step2.jpg" alt="picking size of VM">
