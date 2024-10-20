@@ -14,6 +14,6 @@
 
 <img src="/picturesv2/step8.JPG" width="650px" alt="instance-details">
 <p>
-  Before, we made a resource group that houses all of our resources. We want to create log analytics based off that group which is why we must select that option. Right after, we can name the information that will have those analytics stored in them, like a container mentioned previously. 
+  Before, we made a resource group that houses all of our resources. We want to create log analytics based off that group which is why we must select that option. Right after, we can name the information that will have those analytics stored in them, like a container mentioned previously. For the region, select the same region from before as you want resources in the same region to avoid delay. 
 </p>
 
