@@ -21,5 +21,5 @@ For our use case, we are going to deploying the VM in a production environment a
 
 <img src="/picturesv2/step4.JPG" width="800px" alt="admin setup">
 <p>
-  We will choose 4 virtual central processing units in case we need more power. Create a username and password for your administrator account to get that superuser access. Next, this is the important part. If you take a look at the <b> Public inbound ports </b>, we have selected RDP 3389. This means that anyone on the public internet can access this VM over RDP. Even though, we have set up a password, people on the outside can use brute-force attacks to try and gain access to it. 
+  We will choose 4 virtual central processing units in case we need more power. Create a username and password for your administrator account to get that superuser access. Next, this is the important part. If you take a look at the <b> Public inbound ports </b>, we have selected RDP 3389. This means that anyone on the public internet can access this VM over RDP. Even though, we have set up a password, people on the outside can use brute-force attacks to try and gain access to it. However, to test this, we want to keep this opened in the meantime. 
 </p>
