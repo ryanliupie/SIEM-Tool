@@ -12,5 +12,5 @@
 
 <hr>
 
-<img src="/picturesv2/step8.JPG" width="800px" alt="instance-details">
+<img src="/picturesv2/step8.JPG" width="650px" alt="instance-details">
 
