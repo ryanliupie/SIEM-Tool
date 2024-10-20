@@ -17,3 +17,9 @@
   Before, we made a resource group that houses all of our resources. We want to create log analytics based off that group which is why we must select that option. Right after, we can name the information that will have those analytics stored in them, like a container mentioned previously. For the region, select the same region from before as you want resources in the same region to avoid delay. 
 </p>
 
+<hr>
+
+<img src="/picturesv2/step9.JPG" width="650px" alt="creation of log analysis">
+<p>
+  Just like last time, go to <b> Review + create </b> hit the blue <b> create </b> button on the bottom left. After a couple seconds, you should be prompted with this page shown. 
+</p>
