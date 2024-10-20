@@ -27,4 +27,7 @@
 <hr>
 
 <img src="/picturesv2/step10.JPG" width="650px" alt="data connectors">
+<p>
+  Once it sentinal is added, you will take you to this page. Click on <b> Data connectors </b> and then click on <b> More content at Content Hub </b>. This lets you add data from many resources for security monitoring and analysis. For instance, you can bring in third party firewalls or VPNS. You could also add in Azure active directory. This will let you push the threshold for more in depth security analysis of incidents. 
+</p>
 
