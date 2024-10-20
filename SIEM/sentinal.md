@@ -21,5 +21,5 @@
 
 <img src="/picturesv2/step9.1.JPG" width="650px" alt="creation of log analysis">
 <p>
-  Just like last time, go to <b> Review + create </b> and hit the blue <b> Create </b> button on the bottom left. After a couple seconds, you should be prompted with this page shown. At the bottom left, click on <b> Add </b>. 
+  Just like last time, go to <b> Review + create </b> and hit the blue <b> Create </b> button on the bottom left. After a couple seconds, you should be prompted with this page shown. At the bottom left, click on <b> Add </b>. This will add Microsoft Sentinal to our log analytics workspace. 
 </p>
