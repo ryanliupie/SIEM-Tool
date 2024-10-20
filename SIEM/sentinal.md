@@ -10,3 +10,7 @@
   Once the VM loads in, search up <b> Microsoft Sentinal </b> and click on it in the drop down below.  
 </p>
 
+<hr>
+
+<img src="/picturesv2/step8.JPG" width="800px" alt="instance-details">
+
