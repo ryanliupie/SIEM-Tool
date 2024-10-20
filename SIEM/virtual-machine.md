@@ -30,3 +30,10 @@ For our use case, we are going to deploying the VM in a production environment a
 <p>
   Name your virtual network; it can be anything. The point of this is to allow a secure space for virtual machines to communicate with resources. 
 </p>
+
+<hr>
+
+<img src="/picturesv2/step6.JPG" width="800px" alt="review + create last step">
+<p>
+  Once the previous step is done, we can skip over to the <b> Review + create </b> tab and select the blue button at the bottom <b> Create </b>. 
+</p>
