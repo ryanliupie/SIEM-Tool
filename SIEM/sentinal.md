@@ -31,3 +31,10 @@
   Once sentinal is added, you will take you to this page. Click on <b> Data connectors </b> and then click on <b> More content at Content Hub </b>. This lets you add data from many resources for security monitoring and analysis. For instance, you can bring in third party firewalls or VPNS. You could also add in Azure active directory. This will let you push the threshold for more in depth security analysis of incidents. 
 </p>
 
+<hr>
+
+<<img src="/picturesv2/step11.JPG" width="650px" alt="data connectors">
+<p>
+  Search <b> Windows security events </b> and download this specific data connector. This collects security logs from the Windows computer and sends them to Microsoft Sentinal for monitoring and analysis. It will help detect unusual activity such as failed login attempts in which you can respond to it. 
+</p>
+
