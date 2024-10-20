@@ -19,7 +19,7 @@
 
 <hr>
 
-<img src="/picturesv2/step9.JPG" width="650px" alt="creation of log analysis">
+<img src="/picturesv2/step9.1.JPG" width="650px" alt="creation of log analysis">
 <p>
   Just like last time, go to <b> Review + create </b> hit the blue <b> create </b> button on the bottom left. After a couple seconds, you should be prompted with this page shown. 
 </p>
