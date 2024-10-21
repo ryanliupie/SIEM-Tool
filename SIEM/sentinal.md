@@ -38,5 +38,9 @@
   Search <b> Windows security events </b> and download this specific data connector. This collects security logs from the Windows computer and sends them to Microsoft Sentinal for monitoring and analysis. It will help detect unusual activity such as failed login attempts in which you can respond to it. 
 </p>
 
-<img src="/picturesv2/step12.JPG" width="650px" alt="data-connectors-refresh">
+<hr>
 
+<img src="/picturesv2/step12.JPG" width="800px" alt="data-connectors-refresh">
+<p>
+  Go back to data connectors and click the <b> refresh </b> button. You will see that there are two connectors installed. The legacy version collects those security events but it lacks performance and configuration. Microsoft has been trying to move away from it and replacing it with the <b> AMA </b> analytical agent. This is far more efficent in terms of data collection while integrating improved cloud-native environments. Click on the newer version and then clikc on <b> Open connector page </b>. 
+</p>
