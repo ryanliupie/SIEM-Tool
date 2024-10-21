@@ -44,3 +44,10 @@
 <p>
   Go back to data connectors and click the <b> refresh </b> button. You will see that there are two connectors installed. The legacy version collects those security events but it lacks performance and configuration. Microsoft has been trying to move away from it and replacing it with the <b> AMA </b> analytical agent. This is far more efficent in terms of data collection while integrating improved cloud-native environments. Click on the newer version and then clikc on <b> Open connector page </b>. 
 </p>
+
+<hr>
+
+<img src="/picturesv2/step13.JPG" width="800px" alt="creation-of-data-collection-rule">
+<p>
+  Cick on <b> +Create data collection rule </b> and make up a name in relation to signing in via RDP and then select the same resource group. The purpose of this is to collect data based on the rule you provide to filter out unnecessary data. 
+</p>
