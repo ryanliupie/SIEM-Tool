@@ -38,3 +38,5 @@
   Search <b> Windows security events </b> and download this specific data connector. This collects security logs from the Windows computer and sends them to Microsoft Sentinal for monitoring and analysis. It will help detect unusual activity such as failed login attempts in which you can respond to it. 
 </p>
 
+<img src="/picturesv2/step12.JPG" width="650px" alt="data-connectors-refresh">
+
