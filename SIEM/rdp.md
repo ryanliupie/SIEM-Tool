@@ -16,3 +16,12 @@
 <p>
   The file should look like this in your file manager. Double click on the file to open it. 
 </p>
+
+<hr>
+
+<img src="/picturesv2/step20.JPG" width="600px" alt="click-on-connect">
+<p>
+  You will be prompted a RDP page, please click on <b> Connect </b>
+</p>
+
+
