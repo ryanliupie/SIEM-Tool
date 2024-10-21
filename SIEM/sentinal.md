@@ -49,5 +49,9 @@
 
 <img src="/picturesv2/step13.1.JPG" width="800px" alt="creation-of-data-collection-rule">
 <p>
-  Cick on <b> +Create data collection rule </b> and make up a name in relation to signing in via RDP and then select the same resource group. The purpose of this is to collect data based on the rule you provide to filter out unnecessary data. 
+  Scroll up until you see <b> Logs </b> and copy the code written in the Query. 
 </p>
+- <b> EventID == 4624 </b> filters the results for successful login events. I am not sure why that number is used. 
+- <b> LogonType == 10 </b> This is very specific which filters for RDP logons. 
+- <b> Account != "NT AUTHORITY\SYSTEM": </b> excludes system accounts(services/processes) which always show
+- <b> ProcessName contains "3389"</b> which further specifies RDP is use as RDP runs on port 3389 how to put this in bullet points in markdown file.  
