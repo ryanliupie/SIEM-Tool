@@ -42,7 +42,7 @@
 
 <img src="/picturesv2/step12.JPG" width="800px" alt="data-connectors-refresh">
 <p>
-  Go back to data connectors and click the <b> refresh </b> button. You will see that there are two connectors installed. The legacy version collects those security events but it lacks performance and configuration. Microsoft has been trying to move away from it and replacing it with the <b> AMA </b> analytical agent. This is far more efficent in terms of data collection while integrating improved cloud-native environments. Click on the newer version and then clikc on <b> Open connector page </b>. 
+  Go back to data connectors and click the <b> refresh </b> button. You will see that there are a couple of data connectors installed. The legacy version collects those security events but it lacks performance and configuration. Microsoft has been trying to move away from it and replacing it with the <b> AMA </b> analytical agent. This is far more efficent in terms of data collection while integrating improved cloud-native environments. Click on the newer version and then clikc on <b> Open connector page </b>. The other data connectors you see work with the data connector we manually installed. 
 </p>
 
 <hr>
