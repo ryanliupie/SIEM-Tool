@@ -68,3 +68,10 @@
   Name the rule anything in relation to signing into a system such as RDP; does not have to be too specific. We are gonna set the MITRE ATT&CK to <b> Intial Access </b>. We do this because we are trying to track the verified sign ins to try and detect unusual/unauthorized sign ins. 
 </p>
 
+<hr>
+
+<img src="/picturesv2/step15.JPG" width="600px" alt="rule-logic">
+<p>
+  Since we pre-written the rule, it will automatically show up. We just need to change the query time to every <b> 5 Minutes </b> to see if the rule works. 
+</p>
+
