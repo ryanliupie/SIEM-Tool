@@ -9,3 +9,10 @@
 <p>
   In the search bar, we are going to head to <b> Virtual Machine </b> page and then click on <b> Connect </b>. Once you are there, click on <b> Download RDP file </b> which will be downloaded to your computer. 
 </p>
+
+<hr>
+
+<img src="/picturesv2/step19.JPG" width="600px" alt="double-click-on-file">
+<p>
+  The file should look like this in your file manager. Double click on the file to open it. 
+</p>
