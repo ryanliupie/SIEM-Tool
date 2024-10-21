@@ -24,4 +24,9 @@
   You will be prompted a RDP page, please click on <b> Connect </b>
 </p>
 
+<hr>
 
+<img src="/picturesv2/step21.JPG" width="600px" alt="your-password">
+<p>
+  Remember earlier when we made a password for the VM? We are going to need that to be able to access it.
+</p>
