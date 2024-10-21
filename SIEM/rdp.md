@@ -6,3 +6,6 @@
 <hr>
 
 <img src="/picturesv2/step18.JPG" width="600px" alt="download-rdp-file">
+<p>
+  In the search bar, we are going to head to <b> Virtual Machine </b> page and then click on <b> Connect </b>. Once you are there, click on <b> Download RDP file </b> which will be downloaded to your computer. 
+</p>
