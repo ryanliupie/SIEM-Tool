@@ -51,7 +51,12 @@
 <p>
   Scroll up until you see <b> Logs </b> and copy the code written in the Query. 
 </p>
+<p>
 - <b> EventID == 4624 </b> filters the results for successful login events. I am not sure why that number is used. 
 - <b> LogonType == 10 </b> This is very specific which filters for RDP logons. 
 - <b> Account != "NT AUTHORITY\SYSTEM": </b> excludes system accounts(services/processes) which always show
-- <b> ProcessName contains "3389"</b> which further specifies RDP is use as RDP runs on port 3389 how to put this in bullet points in markdown file.  
+- <b> ProcessName contains "3389"</b> which further specifies RDP is use as RDP runs on port 3389 how to put this in bullet points in markdown file. 
+</p>
+<p>
+  Once you are done writing the code, click <b> New alert rule </b>
+</p>
