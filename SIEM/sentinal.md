@@ -77,7 +77,7 @@
 
 <hr>
 
-<img src="/picturesv2/step16.JPG" width="600px" alt="validate-rule">
+<img src="/picturesv2/step16.JPG" width="800px" alt="validate-rule">
 <p>
   Go to the last page <b> (Review + create) </b> and wait for the validation to pass. Once passed, click <b> Save </b> at the bottom and head to the <b> Analytics </b> page to see the rule we just created. If it does not show up, click the <b> Refresh </b> button.  
 </p>
