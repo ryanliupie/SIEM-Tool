@@ -47,7 +47,7 @@
 
 <hr>
 
-<img src="/picturesv2/step13.JPG" width="800px" alt="creation-of-data-collection-rule">
+<img src="/picturesv2/step13.1.JPG" width="800px" alt="creation-of-data-collection-rule">
 <p>
   Cick on <b> +Create data collection rule </b> and make up a name in relation to signing in via RDP and then select the same resource group. The purpose of this is to collect data based on the rule you provide to filter out unnecessary data. 
 </p>
