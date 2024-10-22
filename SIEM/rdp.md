@@ -30,3 +30,10 @@
 <p>
   Remember earlier when we made a password for the VM? We are going to need that to be able to access it.
 </p>
+
+<hr>
+
+<img src="/picturesv2/step22.JPG" width="600px" alt="attempts">
+<p>
+  Once you are logged in, you will see a windows display just like how you normally log into a computer. This would be your virtual environment. Play around with it; try searching up something familiar. Once you're done, exit at the top and head to <b> Incidents </b> and wait 5 minutes until an message pops up. In this case, we can see <b> Verifed sign ins </b>. Right underneath, it says <b> Successful log ins </b>
+</p>
