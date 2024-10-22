@@ -70,7 +70,7 @@
 
 <hr>
 
-<img src="/picturesv2/step15.JPG" width="600px" alt="rule-logic">
+<img src="/picturesv2/step15.1.JPG" width="600px" alt="rule-logic">
 <p>
   Since we pre-written the rule, it will automatically show up. We just need to change the query time to every <b> 5 Minutes </b> to see if the rule works. 
 </p>
