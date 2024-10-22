@@ -35,5 +35,5 @@
 
 <img src="/picturesv2/step22.JPG" width="600px" alt="attempts">
 <p>
-  Once you are logged in, you will see a windows display just like how you normally log into a computer. This would be your virtual environment. Play around with it; try searching up something familiar. Once you're done, exit at the top and head to <b> Incidents </b> and wait 5 minutes until an message pops up. In this case, we can see <b> Verifed sign ins </b>. Right underneath, it says <b> Successful log ins </b>
+  Once you are logged in, you will see a windows display just like how you normally log into a computer. This would be your virtual environment. Play around with it; try searching up something familiar. Once you're done, exit at the top and head to <b> Incidents </b> and wait 5 minutes until an message pops up. In this case, we can see <b> Verifed sign ins </b>. This message displayed because we logged in VIA RDP 3389 and it logged it. Right underneath, it says <b> Successful Sign ins </b>. As mentioned earlier we did not want to see system accounts as they would pop up regularily. Those <b> Successful Sign in </b> incidents are those processes which are different from RDP 3389. 
 </p>
