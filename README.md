@@ -16,7 +16,7 @@
 
 <hr>
 
-## Components 
+## Part 1
 - <h3> <a href="/SIEM/initial.md"> How to Start </a> </h3>
 - <h3> <a href="/SIEM/virtual-machine.md"> Deploying Virtual Machine </a> </h3>
 - <h3> <a href="/SIEM/sentinal.md"> Applying Microsoft Sentinal </a> </h3>
