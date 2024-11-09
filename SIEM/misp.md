@@ -8,5 +8,9 @@
 ## What is Docker? 
 <img src="/picturesv2/docker1.1.jpg" alt="docker-explanation" width="800px">
 <p>
-  In this, we are going to send an application out from a windows OS to a Linux operating system to see what happens. 
+  In this, imagine you have created a Python application on your Windows computer that does data processing using specific libraries such as <b> Panda </b> and <b> NumPy </b>. You want to send this application to your co-worker who is working on a Linux machine so they can run it.         
+</p>
+<img src="/picturesv2/docker1.2.jpg" alt="docker-explanation" width="800px">
+<p>
+  When we send the application, a problem occurred? When our co-working installed those libraries on their OS, it was different from ours. The dependencies and configurations were different causing a failure in running the Python application. 
 </p>
