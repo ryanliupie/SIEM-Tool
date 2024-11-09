@@ -6,3 +6,6 @@
 <hr>
 
 ## What is Docker? 
+<img src="/picturesv2/docker1.1.jpg" alt="docker-explanation" width="800px">
+<p>
+  In this, we are going to send an application out from a windows OS to a Linux operating system to see what happens. </p>
