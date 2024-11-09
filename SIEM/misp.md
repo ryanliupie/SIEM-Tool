@@ -6,6 +6,3 @@
 <hr>
 
 ## What is Docker? 
-<p>
-  
-</p>
