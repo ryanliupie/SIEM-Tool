@@ -15,3 +15,6 @@
   When we send the application, a problem occurred? When our co-working installed those libraries on their OS, it was different from ours. The dependencies and configurations were different causing a failure in running the Python application. 
 </p>
 <img src="/picturesv2/docker1.3.jpg" alt="docker-explanation" width="800px">
+<p>
+  We are going to send the application in a docker container. Supposedly, by sending this application in a container, your co-worker does not need to manually install Python, Pandas, and NumPy on their Linux system. This container has everything included. Since this container uses a Linux-based Python image, it should behave the same on Windows and Linux. Also, Docker will isolate the environment, ensuring the Python script runs with the correct versian of Pandas and NumPy, regardless of what is installed on the host (application can run independently of the underlying OS). 
+</p>
