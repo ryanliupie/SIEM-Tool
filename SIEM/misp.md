@@ -12,7 +12,7 @@
 </p>
 <img src="/picturesv2/docker1.2.jpg" alt="docker-explanation" width="800px">
 <p>
-  When we send the application, a problem occurred? When our co-working installed those libraries on their OS, it was different from ours. The dependencies and configurations were different causing a failure in running the Python application. 
+  When we send the application, a problem occurred? When your co-worker installed those libraries on their OS, it was different from ours. The dependencies and configurations were different causing a failure in running the Python application. 
 </p>
 <img src="/picturesv2/docker1.3.jpg" alt="docker-explanation" width="800px">
 <p>
