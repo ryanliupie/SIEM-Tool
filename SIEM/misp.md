@@ -16,9 +16,9 @@
 </p>
 <img src="/picturesv2/docker1.3.jpg" alt="docker-explanation" width="800px">
 <p>
-  We are going to send the application in a <b> docker container </b>. Supposedly, by sending this application in a container, your co-worker does not need to manually install Python, Pandas, and NumPy on their Linux system. This container has everything included. Since this container uses a Linux-based Python image, it should behave the same on Windows and Linux. Also, Docker will isolate the environment, ensuring the Python script runs with the correct versian of Pandas and NumPy, regardless of what is installed on the host (application can run independently of the underlying OS). 
+  We are going to send the application in a <b> docker container </b>. Supposedly, by sending this application in a container, your co-worker does not need to manually install Python, Pandas, and NumPy on their Linux system. This container has everything included. Since this container uses a Linux-based Python image, it should behave the same on Windows and Linux. Also, Docker will isolate the environment, ensuring the Python script runs with the correct version of Pandas and NumPy, regardless of what is installed on the host (application can run independently of the underlying OS). 
 </p>
 <img src="/picturesv2/docker1.4.jpg" alt="docker-explanation" width="800px">
 <p>
-  This time, the application was sent and the Linux user was able to use it! Remember that a docker container is not a separate VM. That would be a separate OS for each application would would require an intense amount of money and resources. Instead, docker containers share the host OS kernel, meaning they do not need their own full operating system. This makes the container lightweight; only packaging what is neccesary to run the application. 
+  This time, the application was sent, and the Linux user was able to use it! Remember that a docker container is not a separate VM. That would be a separate OS for each application, where it would require an intense amount of money and resources. Instead, docker containers share the host OS kernel, meaning they do not need their own full operating system. This makes the container lightweight by only packaging what is neccesary to run the application. 
 </p>
