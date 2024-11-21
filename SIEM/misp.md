@@ -24,3 +24,16 @@
 </p>
 
 <hr>
+
+<img src="/picturesv2/step23.JPG" alt="docker-explanation" width="800px">
+<p>
+  We are going to create new virtual machine, but this time we are going to make it <b> Ubuntu </b> where we can connect via SSH
+</p>
+<img src="/picturesv2/step24.JPG" alt="docker-explanation" width="800px">
+<p>
+  Once the VM is created, we are going to click on <b> Connect </b> then <b> SSH using Azure CLI </b>.  
+</p>
+<img src="/picturesv2/step25.JPG" alt="docker-explanation" width="800px">
+<p>
+  A terminal will pop up and it will ask if we want to continue connecting, so we are going to write <b> Yes </b>
+</p>
