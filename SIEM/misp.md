@@ -22,3 +22,18 @@
 <p>
   This time, the application was sent, and the Linux user was able to use it! Remember that a docker container is not a separate VM. That would be a separate OS for each application, where it would require an intense amount of money and resources. Instead, docker containers share the host OS kernel, meaning they do not need their own full operating system. This makes the container lightweight by only packaging what is neccesary to run the application. <b> It is a way to package software that can run on any hardware supported. </b>
 </p>
+
+<hr>
+
+<img src="/picturesv2/step23.JPG" alt="docker-explanation" width="800px">
+<p>
+  We are going to create new virtual machine, but this time we are going to make it <b> Ubuntu </b> where we can connect via SSH
+</p>
+<img src="/picturesv2/step24.JPG" alt="docker-explanation" width="800px">
+<p>
+  Once the VM is created, we are going to click on <b> Connect </b> then <b> SSH using Azure CLI </b>.  
+</p>
+<img src="/picturesv2/step25.JPG" alt="docker-explanation" width="800px">
+<p>
+  A terminal will pop up and it will ask if we want to continue connecting, so we are going to write <b> Yes </b>
+</p>
