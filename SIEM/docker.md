@@ -1,10 +1,3 @@
-## What is MISP? 
-<p>
-  MISP, also know as <b> Malware Information Sharing Platform </b> is an open source threat intelligence platform. It lets you store information such as malware, threats, and vulnerabilities in an organized manner. We can think of MISP like <b> Tableau </b> or <b>  PowerBI </b> which these platforms store and display information about business intelligence. In the case of MISP, it stores and displays information about cyber threat intelligence. 
-</p>
-
-<hr>
-
 ## What is Docker? 
 <img src="/picturesv2/docker1.1.jpg" alt="docker-explanation" width="800px">
 <p>
@@ -31,9 +24,21 @@
 </p>
 <img src="/picturesv2/step24.JPG" alt="docker-explanation" width="800px">
 <p>
-  Once the VM is created, we are going to click on <b> Connect </b> then <b> SSH using Azure CLI </b>.  
+  Once the  virtual machine is created, we are going to click on <b> Connect </b> then <b> SSH using Azure CLI </b>.  
 </p>
 <img src="/picturesv2/step25.JPG" alt="docker-explanation" width="800px">
 <p>
-  A terminal will pop up and it will ask if we want to continue connecting, so we are going to write <b> Yes </b>
+  A terminal will pop up and it will ask if we want to continue connecting, so we are going to write <b> yes </b>
+</p>
+<img src="/picturesv2/step26.JPG alt="docker-explanation width="800px">
+<p>
+  We are going to keep the terminal open and install docker using this website <a href="https://docs.docker.com/engine/install/ubuntu/"> dockerdocs <a/>. We have to set up a Docker apt respository because Docker has dependencies that that apt can install and resolve. It lets us know that we are installing the actual version of docker and allows for automatic updates. Go back and run these commands individually. When I did this all together, it confused the system. 
+</p>
+<img src="/picturesv2/step27.JPG alt="docker-explanation width="800px">
+<p>
+  Then, we have to install the Docker packages. This is the heart of Docker which creates, manages, and executes Docker containers.
+</p>
+<img src="/picturesv2/step29.JPG alt="docker-explanation width="800px">
+<p>
+  After installation, you should see that the Docker service is up and running. If there are any issues, try the entire process again. 
 </p>
