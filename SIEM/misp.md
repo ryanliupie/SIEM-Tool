@@ -27,7 +27,7 @@
 
 <img src="/picturesv2/step23.JPG" alt="docker-explanation" width="800px">
 <p>
-  We are going to create new virtual machine, but this time we are going to make it <b> Ubuntu </b> where we can connect via SSH
+  We are going to create new virtual machine, but this time, the OS we will want to make is Linux based, specifically <b> Ubuntu </b>. This would let us connect via Secure Shell (SSH) port 22. 
 </p>
 <img src="/picturesv2/step24.JPG" alt="docker-explanation" width="800px">
 <p>
