@@ -30,15 +30,15 @@
 <p>
   A terminal will pop up and it will ask if we want to continue connecting, so we are going to write <b> yes </b>
 </p>
-<img src="/picturesv2/step26.JPG alt="docker-explanation width="800px">
+<img src="/picturesv2/step26.JPG" alt="docker-explanation" width="800px">
 <p>
   We are going to keep the terminal open and install docker using this website <a href="https://docs.docker.com/engine/install/ubuntu/"> dockerdocs <a/>. We have to set up a Docker apt respository because Docker has dependencies that that apt can install and resolve. It lets us know that we are installing the actual version of docker and allows for automatic updates. Go back and run these commands individually. When I did this all together, it confused the system. 
 </p>
-<img src="/picturesv2/step27.JPG alt="docker-explanation width="800px">
+<img src="/picturesv2/step27.JPG" alt="docker-explanation" width="800px">
 <p>
   Then, we have to install the Docker packages. This is the heart of Docker which creates, manages, and executes Docker containers.
 </p>
-<img src="/picturesv2/step29.JPG alt="docker-explanation width="800px">
+<img src="/picturesv2/step29.JPG" alt="docker-explanation" width="800px">
 <p>
   After installation, you should see that the Docker service is up and running. If there are any issues, try the entire process again. 
 </p>
