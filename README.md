@@ -27,4 +27,4 @@
 ## Part 2
 - <h3> <a href="/SIEM/docker.md"> Configuring Docker via SSH </a> </h3>
 - <h3> <a href="/SIEM/misp-docker.md"> Configuring MISP to Docker </a> </h3>
-- <h3> <a href="/SIEM/misp-sential.md"> Configuring MISP to Sentinal </a> </h3>
+- <h3> <a href="/SIEM/misp-sentinal.md"> Configuring MISP to Sentinal </a> </h3>
