@@ -18,7 +18,7 @@
 
 ## Part 1
 - <h3> <a href="/SIEM/initial.md"> How to Start </a> </h3>
-- <h3> <a href="/SIEM/virtual-machine.md"> Deploying Virtual Machine </a> </h3>
+- <h3> <a href="/SIEM/virtual_machine.md"> Deploying Virtual Machine </a> </h3>
 - <h3> <a href="/SIEM/sentinal.md"> Applying Microsoft Sentinal </a> </h3>
 - <h3> <a href="/SIEM/rdp.md"> Logging in VIA RDP 3389 </a> </h3>
 
@@ -26,5 +26,7 @@
 
 ## Part 2
 - <h3> <a href="/SIEM/docker.md"> Configuring Docker via SSH </a> </h3>
-- <h3> <a href="/SIEM/misp-docker.md"> Configuring MISP to Docker </a> </h3>
-- <h3> <a href="/SIEM/misp-sentinal.md"> Configuring MISP to Sentinal </a> </h3>
+- <h3> <a href="/SIEM/misp_docker.md"> Configuring MISP to Docker </a> </h3>
+- <h3> <a href="/SIEM/misp_sentinal.md"> Configuring MISP to Sentinal </a> </h3>
+- <h3> <a href="/SIEM/function_app.md"> Function App </a> </h3>
+- <h3> <a href="/SIEM/variables.md"> Environmental Variables </a> </h3>

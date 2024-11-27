@@ -72,12 +72,4 @@ Once the feeds are enabled, you want to fetch and store all the feed data. This 
 <p>
   A couple of minutes later, go th <b> List feeds </b> and you can see all the threat intelligence data that companies supply. For instance, Turla group was observed in 2018 as a threat. After some research, it is a russian based threat actor that attacks governments and large enterprises. 
 </p>
-<img src="/picturesv2/step48.JPG" alt="misp-to-docker" width="800px"> 
 
-
-
-<b>  </b>
-
-<p>
-
-</p>
