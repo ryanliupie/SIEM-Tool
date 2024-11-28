@@ -1,68 +1,72 @@
 <p>
-    We will continue following those steps listed from that GitHub.
+    We will continue following the outlined steps in the Github. 
 </p>
 
 <hr>
 
 <img src="/picturesv2/step59.JPG" alt="function_app" width="800px">
 <p>
-    In the search in Azure, find Function App and hit <b> Create </b>
+    In the search bar in Azure, find <b> Function App </b> and click <b> Create </b>.
 </p> 
 <img src="/picturesv2/step60.JPG" alt="function_app" width="800px">
 <p>
-    The hosting option in this use case would be <p> App Service </p> which would provide enough resources to pull from the MISP instance directly in sentinel. 
+    The hosting option for this use case will be <b> App Service </b>, as it provides sufficient resources to pull data directly from the MISP instance into Sentinel. 
 </p>
 <img src="/picturesv2/step61.JPG" alt="function_app" width="800px">
 <p>
-    Choose the same exact resource group, and name the function app in relation. One important thing to do is deploy the function app in code in <b> Python </b>. After, simply hit <b> Review + Create </b>. 
+    Choose the same resource group you’ve been using, and name the function app accordingly. It’s important to deploy the function app using code written in <b> Python </b>. Once done, click <b> Review + Create </b>.
 </p>
 <img src="/picturesv2/step62.JPG" alt="function_app" width="800px">
 <p>
-    Once it deploys, instead of creating the actual function in Azure, it will be done another way. 
+    After the deployment completes, note that the actual function will not be created in Azure directly; instead, it will be done using a different method 
 </p>
 <img src="/picturesv2/step63.JPG" alt="function_app" width="800px">
 <p>
-    Following the instructions, download the misp2sential repository via ZIP. 
+    Following the instructions in the GitHub guide, download the <b> misp2sentinel </b> repository as a ZIP file. 
 </p>
 <img src="/picturesv2/step64.JPG" alt="function_app" width="800px">
 <p>
-    Locate where the file is on your computer, and unzip the file to get access to all the contents. 
+    Locate the ZIP file on your computer and unzip it to access all the contents. 
 </p>
 
 <img src="/picturesv2/step65.JPG" alt="function_app" width="800px">
 <p> 
-    If you haven't already done so, download an IDE called VS Code and install <b> Azure Functions </b>
+    If you haven’t already, download and install an IDE called VS Code. Then, install the <b> Azure Functions </b> extension.
 </p>
 <img src="/picturesv2/step66.JPG" alt="function_app" width="800px">
 <p>
-    Open the unzipped file into the IDE, and you should see all the files there. If not, try downloading, zipping, and unzipping again. 
+    Open the unzipped folder in the IDE. You should see all the files. If the files are not visible, try downloading, zipping, and unzipping again. 
 </p>
 <img src="/picturesv2/step67.JPG" alt="function_app" width="800px">
 <p>
-    On the left panel, Azure functions should be there, click on it, and sign in to your Azure account by clicking <b> Sign in to Azure </b>. This will let us deploy to the Azure tenant. 
+    In the left panel of VS Code, click on <b> Azure Functions </b>. Then, sign in to your Azure account by clicking <b> Sign in to Azure </b>. This step allows deployment to your Azure tenant. 
 </p>
 <img src="/picturesv2/step68.JPG" alt="function_app" width="800px">
 <p>
-    As you can see, the files should look something like this. 
+     After signing in, the files should appear as shown in the example. If the structure looks different, ensure that the files are correctly unzipped and recheck.
 </p>
 <img src="/picturesv2/step69.JPG" alt="function_app" width="800px">
 <p>
-    This file pulls the security events from the MISP instance using the API key, and sends it to the sentinel data connector. Since there is no multi tenant, that snippet of code needs to be deleted otherwise an error will occur. 
+    Within the files, there is a specific script that pulls security events from the MISP instance using the API key and sends them to the Sentinel data connector. Since there is no multi-tenant support, you need to delete the snippet of code related to multi-tenancy. Failing to remove it will result in an error. 
 </p>
 <img src="/picturesv2/step70.JPG" alt="function_app" width="800px">
 <p>
-    Once that snippet of code is deleted, you want to right click on the main folder <b> Azure Function </b> and select <b> Deploy to Function App </b>. 
+    Once the snippet is deleted, right-click on the main folder, <b> Azure Function </b>, and select <b> Deploy to Function App </b>. 
 </p>
 <img src="/picturesv2/step71.JPG" alt="function_app" width="800px">
 <p>
-    It will show a pop up message; click <b> Deploy </b>
+    A pop-up message will appear. Click <b> Deploy </b> to proceed.
 </p>
 <img src="/picturesv2/step72.JPG" alt="function_app" width="800px">
 <p>
-    The function app in Azure should display the function that was deployed right before. 
+    After deployment, the Azure Function App should display the deployed function.
 </p>
 <img src="/picturesv2/step73.JPG" alt="function_app" width="800px">
 <p>
-    Click into the function, the hit <b> Code + Test </b> and you should see the function that previously in the IDE. Scroll down and double check if the code associated with multi-mode has been deleted. If it has, move onto the next step, if it hasn't, redeploy. Mind you, when you deploy the function it will take up to 10 minutes, after that, if no function displays, there is an error. 
+    Click into the function, then select <b> Code + Test </b>. Verify that the code matches what you had in the IDE and scroll down to ensure the snippet related to multi-tenancy has been deleted. If it hasn’t, delete it and redeploy.
 </p>
+<p>
+     Note that the deployment process can take up to 10 minutes. If the function does not display in Azure after this time, there is likely an error that needs troubleshooting. 
+</p>
+
 

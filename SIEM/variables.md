@@ -4,47 +4,39 @@
 </p>
 <img src="/picturesv2/step75.JPG" alt="environmental_variables" width="800px">
 <p> 
-    On the left panel, click on <b> Functions </b> and hit <b> Environmental Variables </b>. In the __init__.py file, it looks for IDs refering to <b> tenant </b>, <b> client </b>, <b>  client secret </b>, and <b> workspace </b>. This file pulls from the config.py and it looks for these items in the environmental variables that must be set. Therefore to start adding these items, click on <b> Add </b> and the name the item exactly. We will start with the Workplace_ID. 
+    On the left panel, click on <b> Functions </b> and then select <b> Environmental Variables </b>. In the __init__.py file, it references IDs such as <b> tenant </b>, <b> client </b>, <b> client secret </b>, and <b> workspace </b>. This file pulls these values from config.py, which expects them to be set in the environmental variables. To start adding these items, click on <b> Add </b> and name each variable exactly as it is defined. Begin with <b> Workspace_ID </b>. 
 </p>
 <img src="/picturesv2/step76.JPG" alt="environmental_variables" width="800px">
 <p> 
-    To get the <b> Workspace ID </b>, go back to your log analytics page, and then select <b> Properties </b>. Add the name is lowercase just as in the config.py is, and copy the value after. 
+    To find the <b> Workspace ID </b>, navigate to your Log Analytics page and select <b> Properties </b>. Add the name in lowercase as defined in config.py, and copy the value to paste into the environmental variable.
 </p>
 <img src="/picturesv2/step77.JPG" alt="environmental_variables" width="800px">
 <p> 
-    It should look something like this, and we are going to do this for the other items as well. Remember the values you copied to your google docs or notes? Those values will be pasted here. 
+    It should look something like this. Repeat this process for the other required items. Remember the values you saved in your Google Docs or Notes? Use those values here. 
 </p>
 <img src="/picturesv2/step78.JPG" alt="environmental_variables" width="800px">
 <p> 
-    A misp key will also be needed; go back to the MISP instance on the web browser; go to page where the the authentication is located and create a new key. However, remember that very important value that was copied to your google docs or notes? Use that same one. 
+    A <b> MISP key </b> will also be required. Go back to the MISP instance in your web browser, navigate to the page where authentication keys are managed, and create a new key. However, if you already copied the previously generated key to your notes, you can use that same value.
 </p>
 <img src="/picturesv2/step79.JPG" alt="environmental_variables" width="800px">
 <p> 
-    The last item that the function wants to know is the <b> mispurl </b>. Copy and paste the url where you access the misp instance from into the environmental variables. 
+    The final item the function needs is the <b> mispurl </b>. Copy and paste the URL used to access your MISP instance into the environmental variables. 
 </p>
 <img src="/picturesv2/step80.JPG" alt="environmental_variables" width="800px">
 <p> 
-    The python script will also look for a time trigger schedule and by following the expression given in the repository, that can be implemented easily. 
+    The Python script will also require a time trigger schedule. Follow the expression provided in the GitHub repository to implement this. 
 </p>
 <img src="/picturesv2/step81.JPG" alt="environmental_variables" width="800px">
 <p> 
-    After, go to <b> Invocations and more </b> where you will be able see the code previously. 
-</p>
-<img src="/picturesv2/step82.JPG" alt="environmental_variables" width="800px">
-<p> 
-    You want to create two separate tabs. The first tab will contain <b> Code + Test </b>. This is where we will run the code to test if it works. 
-</p>
-<img src="/picturesv2/step83.JPG" alt="environmental_variables" width="800px">
-<p> 
-    The second tab will be <b> Logs </b>. This would allow us to see cleary what happens when the code runs. 
+    Afterward, navigate to <b> Invocations and more </b>, where you can view the previously deployed code. 
 </p>
 <img src="/picturesv2/step84.JPG" alt="environmental_variables" width="800px">
 <p> 
-    Run the code. 
+    In the <b> Code + Test </b> tab, you want to run the code to see if it works. 
 </p>
-<img src="/picturesv2/step84.JPG" alt="environmental_variables" width="800px">
+<img src="/picturesv2/step85.JPG" alt="environmental_variables" width="800px">
 <p> 
-    As you can see, the logs appear at the bottom, which means you do not neccesarily have to open both tabs, but just for clarity we can. Aside of this, you can see that the function is pulling the environmental variables that we set earlier. Approximately around an hour or two, you can go back to Sentinal and open <b> Threat indicators </b>.
+    As you can see, the function is pulling the environmental variables that we set earlier. Approximately around an hour or two, you can go back to Sentinal and open <b> Threat indicators </b> to confirm that everything is working correctly. 
 </p>
 
 

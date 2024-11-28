@@ -1,39 +1,39 @@
 <img src="/picturesv2/step1.jpg" width="500px" alt="click on create and second option">
 <p>
-  As we have seen those services at the top and clicked on Virtual machines, we are going to choose <b> Create </b> and then choose <b> Azure virtual machine with preset configuration. </b>
+    As we explore the services at the top and click on Virtual machines, we will select <b> Create </b> and then choose <b> Azure virtual machine with preset configuration </b>.
 </p>
 
 <hr> 
 
 <img src="/picturesv2/step2.JPG" width="600px" alt="picking size of VM">
 <p> 
-For our use case, we are going to deploying the VM in a production environment and the default workload. We are not going to be needing large memory workloads. 
+    For our use case, we will be deploying the VM in a production environment with the default workload. We don’t require large memory workloads for this scenario.
 </p>
 
 <hr>
 
 <img src="/picturesv2/step3.JPG" width="800px" alt="selections">
 <p>
-  Create a new <b> resource group </b> and call it whatever you want. The <b> Resource Group </b> is a logical container that will hold all these resources such as storage accounts, virtual machines, databases and more. For example, it is like a lunchbox that contains different foods inside. It could be a juice box, sandwhich, crackers, or even chocolate that all play a certain role. Select a name for the VM and select what region you are in. THe last thing is to choose an <b> image </b> which is the operating sytem you want your VM.     
+    Create a new <b> resource group </b> and name it whatever you prefer. A <b> Resource Group </b> is a logical container that organizes resources such as storage accounts, virtual machines, databases, and more. Think of it like a lunchbox that holds different items such as a juice box, sandwich, crackers, or chocolate—each serving a specific purpose. After naming your VM, select your region and choose an <b> image </b>, which determines the operating system for your virtual machine.     
 </p>
 
 <hr> 
 
 <img src="/picturesv2/step4.JPG" width="800px" alt="admin setup">
 <p>
-  We will choose 4 virtual central processing units in case we need more power. Create a username and password for your administrator account to get that superuser access. Next, this is the important part. If you take a look at the <b> Public inbound ports </b>, we have selected RDP 3389. This means that anyone on the public internet can access this VM over RDP. Even though, we have set up a password, people on the outside can use brute-force attacks to try and gain access to it. However, to test this, we want to keep this opened in the meantime. 
+    We will configure the VM with 4 virtual central processing units (vCPUs) to ensure enough processing power for potential needs. Create a username and password for your administrator account to gain superuser access. Now, pay attention to the <b> Public inbound ports </b> setting. We have selected RDP (port 3389), which allows anyone on the internet to access this VM via Remote Desktop Protocol. Although a password is set, attackers could still use brute-force methods to attempt access. For testing purposes, we’ll keep this port open for now.
 </p>
 
 <hr>
 
 <img src="/picturesv2/step5.JPG" width="800px" alt="VM container">
 <p>
-  Name your virtual network; it can be anything. The point of this is to allow a secure space for virtual machines to communicate with resources. 
+    Name your virtual network—this can be any name of your choice. The purpose of this network is to create a secure space for virtual machines to communicate with other resources.
 </p>
 
 <hr>
 
 <img src="/picturesv2/step6.JPG" width="800px" alt="review + create last step">
 <p>
-  Once the previous step is done, we can skip over to the <b> Review + create </b> tab and select the blue button at the bottom <b> Create </b>. 
+    Once the previous steps are complete, navigate to the <b>Review + create</b> tab. Review the settings, and then click the blue <b>Create</b> button at the bottom to finalize the process.
 </p>
