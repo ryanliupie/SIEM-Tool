@@ -21,7 +21,7 @@
     With cloud computing, companies still rely on physical computers housed in specific locations. However, the difference lies in the scale: there are hundreds of these servers available, allowing you to rent only what you need, when you need it, instead of buying and maintaining extra hardware for your servers.
 </p>
 <p>
-    Would you prefer a solution that's quick and easy or one that's slow and difficult?
+    Would you rather prefer a solution that's quick and easy or one that's slow and difficult?
 </p>
 
 <hr>
